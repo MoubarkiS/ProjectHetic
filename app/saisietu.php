@@ -22,22 +22,18 @@
             <label class="control-label">Email : </label>
             <input type="text" name="email" class="form-control">
           </div> 
-          <!--<div class="form-group ">Email :
-             <input type="text" class="form-control" placeholder="" aria-label="Recipient's username" aria-describedby="basic-addon2">
-                 <span class="input-group-text" id="basic-addon2">@gmail.com</span>
-              </div>-->
 <br>
 <div class="form-group">
             <label class="control-label">Type :</label>
            
           </div>
            <div class="form-check">
-          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-              <label class="form-check-label" for="flexRadioDefault1"> 1</label>
+          <input class="form-check-input" type="radio" value="admin" name="type" id="flexRadioDefault1">
+              <label class="form-check-label" for="flexRadioDefault1"> Admin </label>
            </div>
           <div class="form-check">
-          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
-           <label class="form-check-label" for="flexRadioDefault2"> 2 </label>
+          <input class="form-check-input" type="radio" value="user" name="type" id="flexRadioDefault2" checked>
+           <label class="form-check-label" for="flexRadioDefault2"> Simple User </label>
          </div>
          <br>
        
